@@ -19,6 +19,7 @@ public class EmployeeController {
 	EmployeeService empser;
 	@PostMapping(value= "/add")
 	public String addEmployee(@RequestBody Employee e) {
+		System.out.println("first controller git commint");
 		return empser.addEmployee(e);
 	}
 	
