@@ -12,7 +12,6 @@ public class EmployeeService {
 EmployeeDao empDao;
 public String addEmployee(Employee e) {
 	System.out.println("git branch created");
-	System.out.println("checking git push");
 	return empDao.addEmployee(e);
 }
 
